@@ -1,17 +1,21 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color=secondary transparent> <!-- try transparent...check Theme folder for colours-->
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content>
+  <h2 >Birthday<span> Card</span> App</h2>
+ 
+  {{title}}
+  <ion-img width="150" height="150" src='assets/imgs/test1.jpg'></ion-img>
+
+  <div class="pic">
+      <p><b><u>Jade's  Pic</u></b></p>
+  </div>
+
+
+  <div class="footer">
+    <p><b>Happy Birthday: <span>Jade</span></b></p>
+  </div>
 </ion-content>

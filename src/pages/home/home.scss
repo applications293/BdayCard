@@ -1,3 +1,32 @@
 page-home {
+ ion-content{
+     background-image: url(../assets/imgs/bd.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+ }
 
+ .footer{
+     /*margin:250px;*/
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 230px;
+    position:fixed;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ span{
+    color: red;
+ }
+ .pic{
+     color: rgb(0, 255, 170);
+     font-size: 15px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ }
+
+ ion-navbar {
+     text-align: center;
+ }
 }
